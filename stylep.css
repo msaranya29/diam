@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+}
+.profile-container {
+    width: 97%;
+    margin: 1px auto;
+    background-color: #000000;
+    padding: 67px 27px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size:1504px 302px;
+
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+
+.profile-header {
+    
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+    
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.profile-details h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navigation-bar {
+    margin: 20px 0;
+    background-color: #282828;
+    border-radius: 5px;
+    
+}
+
+.navigation-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navigation-bar li {
+    margin: 10px;
+    
+}
+
+.navigation-bar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.container {
+    text-align:left;
+    width: 95%;
+    max-width: 1600px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.box {
+    background-color: #0c0c0c;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    text-align: center;
+}
+
+.box p {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.box button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.box button:hover {
+    background-color: #0056b3;
+}

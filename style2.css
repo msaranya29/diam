@@ -1,0 +1,116 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem 0;
+    margin: 31px;
+}
+
+header .container {
+    max-width: 1209px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    gap:84px;
+    
+}
+
+
+nav input{
+    width:400px;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.pagination{
+    float: right;
+    display: flex;
+    gap: 50px;
+    padding: 7px;
+    
+    
+}
+
+nav span{
+    padding:36px;
+}
+
+
+
+.button-container {
+    text-align: center;
+}
+.btn-3d {
+    background-color: #717577; 
+    border: none;
+    border-radius: 5px;
+    padding: 3px;          
+    font-size: 18px;            
+    font-weight: bold;          
+    cursor: pointer;             
+    transition: transform 0.2s, box-shadow 0.2s; 
+    box-shadow: 0 5px #72797e;   
+    color: white;
+
+}
+.btn-3d:active {
+    transform: translateY(5px); 
+    box-shadow: 0 2px #b8bec3;  
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 7rem;
+}
+
+
+
+.featured-item, .nft-card, .category-card {
+    background-color: #202020;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 2rem 1rem;
+}
+
+
+
+section {
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+.first{
+    margin-bottom: 18rem;
+}
+.second{
+    margin-bottom:32rem;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .container2 {
+    max-width: 267px;
+    margin: auto;
+    padding: 0 1rem;
+}
